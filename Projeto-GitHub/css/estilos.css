@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@media screen and (min-width:500px) {
+    .ladoesquerdo {
+        max-width: 10%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .ladoesquerdo {
+        max-width: 5%;
+    }
+}
+
+body {
+    background: rgb(0, 0, 0);
+    margin: 0;
+    height: 1000px;
+    background-image: url(/img/nascentedoplaneta.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+/* * {
+    border: 1px solid black;
+    } */
+
+
+/* esse é o navbar */
+.ladoesquerdo {
+    /* background: rgb(65, 38, 90); */
+    display: flex;
+    flex-flow: column;
+    width: 15%;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    color: rgb(255, 255, 255);
+
+}
+
+.ladoesquerdo a {
+    background: rgba(0, 191, 255, 0.035);
+    align-content: center;
+    text-align: center;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 40px;
+}
+
+.logo {
+    align-content: center;
+    height: 60px;
+    font-size: 100%;
+    /* background: rgb(5, 74, 5); */
+    text-align: center;
+}
+
+.logo h1 {
+    margin: 0;
+}
+
+
+/* Aqui começa o site. */
+
+.site {
+    margin-left: 15%;
+    /* background: rgb(165, 121, 121); */
+}
+
+
+
+header {
+    font-size: 35px;
+    font-family: lobster;
+    text-shadow: 2px 2px 10px wheat;
+    color: aliceblue;
+    display: flex;
+    width: 100%;
+    height: 80px;
+    /* background: chartreuse; */
+    justify-content: center;
+
+}
+
+.imagem h2 {
+    color: wheat;
+    margin: 0;
+    /* background: chocolate; */
+}
+
+.ladoesquerdo a {
+    margin-top: 5px;
+    border-radius: 10px;
+}
+
+.ladoesquerdo a:hover {
+    color: black;
+    background: rgb(0, 167, 204);
+}
+
+/* a partir daqui é experimental */
+.conjunto {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    margin: 25px;
+    background: rebeccapurple;
+    width: 250px;
+    height: 300px;
+    box-shadow: 0px 0px 20px white;
+}
+
+.card * {
+    color: rgb(175, 218, 255);
+    margin: 0;
+}
+
+.card:hover {
+    opacity: 0.9;
+    cursor: help;
+}
+
+.card img {
+    width: 100%;
+    height: 75%;
+}
+
+.card h2 {
+    color: white;
+}
